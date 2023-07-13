@@ -21,5 +21,5 @@ app.listen(process.env.PORT,async()=>{
         console.log(error);
         console.log("Something went wrong while connecting to DB!!");
     }
-    console.log(`Server is running on port ${process.argv.PORT}`);
+    console.log(`Server is running on port ${process.env.PORT}`);
 })
